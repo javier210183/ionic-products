@@ -13,18 +13,6 @@ import { baseUrlInterceptor } from './app/interceptors/base-url.interceptor';
 if (environment.production) {
   enableProdMode();
 }
-
-
-
-
-
-
-
-
-
-
-
-
 bootstrapApplication(AppComponent, {
   providers: [
 
