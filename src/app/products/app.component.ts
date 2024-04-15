@@ -24,7 +24,16 @@ export class AppComponent {
 
   public appPages = [{ title: 'Home', url: '/products', icon: 'home' }];
   constructor() {
-    addIcons({ home, logIn, documentText, checkmarkCircle, images, camera, arrowUndoCircle });
+    //AQUI LOS ICONOS QUE VAYAMOS UTILIZANDO
+    addIcons({ 
+      home, 
+      logIn, 
+      documentText, 
+      checkmarkCircle, 
+      images, 
+      camera, 
+      arrowUndoCircle 
+    });
 
     effect(() => {
       if (this.#authService.logged()) {
